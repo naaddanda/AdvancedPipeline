@@ -58,3 +58,7 @@ jobs:
           files: calculator-${{ github.ref_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+on:
+  push:
+    tags:
+      - 'v*'  # Запуск при создании тега вида v1.0.0
