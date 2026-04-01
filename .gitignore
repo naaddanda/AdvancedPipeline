@@ -1,0 +1,25 @@
+cat > .gitignore << 'EOF'
+## .NET
+bin/
+obj/
+packages/
+*.user
+*.suo
+*.userosscache
+*.vs/
+*.nupkg
+TestResults/
+publish/
+
+## VS Code
+.vscode/
+
+## OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+EOF
