@@ -2,9 +2,9 @@ using System;
 using AdvancedCalculatorLib;
 
 // Добавляем класс и метод Main
-public class Program 
+public class Program
 {
-    public static void Main() 
+    public static void Main()
     {
         var calculator = new Calculator();
         var stats = new StatisticsCalculator();
