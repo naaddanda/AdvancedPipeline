@@ -4,6 +4,10 @@ on:
   release:
     types: [published]
 
+# 🔥 ДОБАВЬТЕ ЭТУ СЕКЦИЮ 🔥
+permissions:
+  contents: write  # Право на загрузку артефактов в релиз
+
 jobs:
   create-release:
     name: Создание релиза
